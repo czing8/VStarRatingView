@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>08524A09-818F-4953-AA9C-718A1B5E723F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>VStarRatingView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5E7000BA2086FED4C512179CD933EF2C0D2FEFC2</key>
 		<string>https://github.com/volcs/VStarRatingView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>VStarRatingView/VStarRatingView.xcodeproj/project.xcworkspace</string>
+	<string>VStarRatingView/VStarRatingView.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5E7000BA2086FED4C512179CD933EF2C0D2FEFC2</key>
