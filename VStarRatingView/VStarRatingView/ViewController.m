@@ -8,9 +8,14 @@
 
 #import "ViewController.h"
 #import "VStarRatingView.h"
+#import "StarRatingView.h"
+
 
 
 @interface ViewController () <VStarRatingViewDelegate>
+
+@property (strong, nonatomic) StarRatingView *starRateView;
+
 
 @end
 
@@ -23,6 +28,16 @@
     starRatingView.delegate = self;
     [self.view addSubview:starRatingView];
     
+    
+    StarRatingView *ratingView = [[StarRatingView alloc] initWithFrame:CGRectMake(10, 200, 200, 40) numberOfStars:5];
+    ratingView.scorePercent = 0.3;
+    ratingView.allowIncompleteStar = YES;
+    ratingView.hasAnimation = YES;
+    //    _starRateView.onlyShow = YES;
+    ratingView.ratingResult = ^(float ratingValue){
+        NSLog(@"%f", ratingValue);
+    };
+    [self.view addSubview:ratingView];
 }
 
 -(void)starRatingView:(VStarRatingView *)view score:(float)score

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F109E5691C89279100FF4BCE /* b27_icon_star_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E5651C89279100FF4BCE /* b27_icon_star_gray@2x.png */; };
+		F109E56A1C89279100FF4BCE /* b27_icon_star_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E5661C89279100FF4BCE /* b27_icon_star_yellow@2x.png */; };
+		F109E56B1C89279100FF4BCE /* StarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E5681C89279100FF4BCE /* StarRatingView.m */; };
 		F10C3B241B02050A001EDC3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F10C3B231B02050A001EDC3E /* main.m */; };
 		F10C3B271B02050A001EDC3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F10C3B261B02050A001EDC3E /* AppDelegate.m */; };
 		F10C3B2A1B02050A001EDC3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10C3B291B02050A001EDC3E /* ViewController.m */; };
@@ -30,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F109E5651C89279100FF4BCE /* b27_icon_star_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b27_icon_star_gray@2x.png"; sourceTree = "<group>"; };
+		F109E5661C89279100FF4BCE /* b27_icon_star_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b27_icon_star_yellow@2x.png"; sourceTree = "<group>"; };
+		F109E5671C89279100FF4BCE /* StarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingView.h; sourceTree = "<group>"; };
+		F109E5681C89279100FF4BCE /* StarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRatingView.m; sourceTree = "<group>"; };
 		F10C3B1E1B02050A001EDC3E /* VStarRatingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VStarRatingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10C3B221B02050A001EDC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F10C3B231B02050A001EDC3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +74,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F109E5641C89279100FF4BCE /* StarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				F109E5651C89279100FF4BCE /* b27_icon_star_gray@2x.png */,
+				F109E5661C89279100FF4BCE /* b27_icon_star_yellow@2x.png */,
+				F109E5671C89279100FF4BCE /* StarRatingView.h */,
+				F109E5681C89279100FF4BCE /* StarRatingView.m */,
+			);
+			path = StarRatingView;
+			sourceTree = "<group>";
+		};
 		F10C3B151B02050A001EDC3E = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +106,7 @@
 		F10C3B201B02050A001EDC3E /* VStarRatingView */ = {
 			isa = PBXGroup;
 			children = (
+				F109E5641C89279100FF4BCE /* StarRatingView */,
 				F10C3B471B02052E001EDC3E /* VStarRatingView */,
 				F10C3B251B02050A001EDC3E /* AppDelegate.h */,
 				F10C3B261B02050A001EDC3E /* AppDelegate.m */,
@@ -218,6 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F109E56A1C89279100FF4BCE /* b27_icon_star_yellow@2x.png in Resources */,
+				F109E5691C89279100FF4BCE /* b27_icon_star_gray@2x.png in Resources */,
 				F10C3B4D1B020582001EDC3E /* backgroundStar@2x.png in Resources */,
 				F10C3B2D1B02050A001EDC3E /* Main.storyboard in Resources */,
 				F10C3B4E1B020582001EDC3E /* foregroundStar@2x.png in Resources */,
@@ -240,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F109E56B1C89279100FF4BCE /* StarRatingView.m in Sources */,
 				F10C3B4A1B020572001EDC3E /* VStarRatingView.m in Sources */,
 				F10C3B2A1B02050A001EDC3E /* ViewController.m in Sources */,
 				F10C3B271B02050A001EDC3E /* AppDelegate.m in Sources */,
@@ -438,6 +460,7 @@
 				F10C3B431B02050A001EDC3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F10C3B441B02050A001EDC3E /* Build configuration list for PBXNativeTarget "VStarRatingViewTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +469,7 @@
 				F10C3B461B02050A001EDC3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
