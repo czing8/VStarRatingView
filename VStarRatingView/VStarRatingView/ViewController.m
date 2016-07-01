@@ -30,7 +30,7 @@
     
     
     StarRatingView *ratingView = [[StarRatingView alloc] initWithFrame:CGRectMake(10, 200, 200, 40) numberOfStars:5];
-    ratingView.scorePercent = 0.3;
+    ratingView.scorePercent = 1;
     ratingView.allowIncompleteStar = YES;
     ratingView.hasAnimation = YES;
     //    _starRateView.onlyShow = YES;
